@@ -65,7 +65,6 @@ Connection.prototype.getServiceInformation = function(callback) {
 
 Connection.prototype.saveApplicationData = function(appData, callback) {
     //TODO: check for valid session token
-    console.log('Session Token:', _sessionToken);
     var options = {
         method: 'PUT',
         url: _host + '/REST/'+ _version +'/SvcInfo/appProfile',

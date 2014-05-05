@@ -2,4 +2,4 @@
 //================================================================================
 // Module
 //================================================================================
-module.exports.Connection = require('./connection');
+module.exports.CommerceService = require('./commerce-service');
